@@ -1,0 +1,26 @@
+@import "../../../core/assets/scss/components/mixins";
+@import "../../../core/assets/scss/components/variables";
+/*
+ * Frontend publisher component :
+ */
+#eo_manage_btns{
+  text-align: center;
+  margin: 20px;
+}
+#eo_create_btns{
+  text-align: center;
+  margin: 20px;
+}
+#wp-eo-front-blank-editor-wrap{
+  display: none !important;
+}
+.eo_field_container .mce-toolbar .mce-btn button{
+  &:hover{
+    color: #ffffff;
+  }
+}
+body.mce-fullscreen.admin-bar{
+  div.mce-fullscreen{
+    top: 32px;
+  }
+}
